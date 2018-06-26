@@ -1,0 +1,94 @@
+
+	
+
+
+h1{
+	font-family: 'Cinzel Decorative', cursive;
+	color: black;
+	text-align: center;
+	position: relative;
+	bottom: 500px;
+}
+h2{
+	font-family: 'Cinzel Decorative', cursive;
+	color: black;
+	text-align: center;
+	position: relative;
+	bottom: 500px;
+}
+a{
+    font-family: 'Cinzel Decorative', cursive;
+	color: red;
+	position: relative;
+	bottom: 500px;
+    left: 36%;
+    font-size: 150%;
+    
+    
+}
+
+
+
+}
+h3{
+	font-family: 'Cinzel Decorative', cursive;
+	color: white;
+	
+	font-size: 150%;
+	position: relative;
+	bottom: 500px;
+}
+p{
+    font-family: 'Cinzel Decorative', cursive;
+	color: black;
+	position: relative;
+	bottom: 50px;
+    left: 1%; 
+    font-size: 250%;
+    
+}
+
+
+
+#logo{
+background-color: transparent;
+    position: relative;
+    bottom: -10%;
+    right: -10%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#eye{
+    width: 600px;
+    position: relative;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite
+}
+@keyframes example {
+    0%   { left:0px; right:0px;}
+    25%  { left:200px; right:0px;}
+    50%  { left:200px; right:200px;}
+    75%  { left:0px; right:200px;}
+    100% { left:0px; right:0px;}
+}
+#eye2{
+    width: 600px;
+    position: relative;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite
+}
+@keyframes example {
+    0%   { left:0px; right:0px;}
+    25%  { left:0px; right:200px;}
+    50%  { left:200px; right:200px;}
+    75%  { left:200px; right:0px;}
+    100% { left:0px; right:0px;}
+}
+
+a:hover{
+    background: black;
+}

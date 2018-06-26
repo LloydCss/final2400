@@ -1,0 +1,72 @@
+h1{
+	font-family: 'Cinzel Decorative', cursive;
+	color: red;
+	text-align: center;
+    font-size: 400%;
+    
+}
+h2{
+	font-family: 'Cinzel Decorative', cursive;
+	color: white;
+	text-align: center;
+     top: auto;
+	font-size: 250%
+}
+
+h3{
+	font-family: 'Cinzel Decorative', cursive;
+	color: black;
+	text-align: center;
+	font-size: 150%;
+}
+
+
+a{
+	color: White;
+}
+
+body{
+    background: black;
+}
+
+h4{
+    font-size: 250%;
+    color:white;
+     text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+h5{
+   
+     font-size: 250%;
+    color:red;
+     text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+} 
+h6{
+     font-size: 250%;
+    color:white;
+     text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+p{
+    font-size: 250%;
+    color:red;
+     text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#arrow{
+     width: 600px;
+    position: relative;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite
+}
+@keyframes example {
+    0%   { left:0px; right:0px;}
+    25%  { left:0px; right:200px;}
+    50%  { left:200px; right:200px;}
+    75%  { left:200px; right:0px;}
+    100% { left:0px; right:0px;}
+}
